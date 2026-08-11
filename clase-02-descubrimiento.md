@@ -23,17 +23,26 @@
 
 ### Fuentes consultadas
 
-* **Vogue Business – “Sizing is stopping consumers from shopping. Here’s what brands need to know”**: encuesta a consumidores de Estados Unidos y Reino Unido en la que el mal calce y la inconsistencia de talles aparecen como factores que pueden desalentar la compra de moda.
+## 2. Research secundario
 
-* **Sizebay – “Why clothing sizes are inconsistent across brands”**: explica las diferencias de talles entre marcas y su relación con la dificultad de comprar indumentaria online.
+### Problemas potenciales
 
-* **Nestler et al. – “SizeFlags: Reducing Size and Fit Related Returns in Fashion E-Commerce”**: investigación académica que identifica la dificultad de encontrar prendas con talle y calce adecuados online y su relación con las devoluciones.
+| Problema potencial                                                                                                     | Usuario                                                                                              | Contexto                                                                   | Evidencia                                                                                                                                                                                                                                                                                                            | Fuente                                                                                                                                           | Hecho, interpretación o supuesto                                                                                                                                                                                                                         | Preguntas pendientes                                                                                                                                         |
+| ---------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 
-* **Chatterjee, Tej y Dasaraju – “Incorporating Customer Reviews in Size and Fit Recommendation Systems for Fashion E-Commerce”**: investigación académica sobre la dificultad de predecir talle y calce en comercio electrónico y la información presente en reseñas de consumidores.
+### Fuentes consultadas
 
-* **Reddit – r/womensfashion, discusiones sobre inconsistencia de talles entre marcas**: testimonios de compradores que reportan utilizar talles diferentes entre marcas, dificultades incluso al consultar tablas y estrategias como comprar varios talles o limitarse a marcas conocidas.
+* [Vogue Business — Sizing is stopping consumers from shopping. Here’s what brands need to know](https://www.voguebusiness.com/story/companies/sizing-is-stopping-consumers-from-shopping-heres-what-brands-need-to-know)
 
-* **Reddit – r/malefashionadvice, “Sizing Issues”**: usuarios describen dificultades para determinar el talle al comprar entre distintas marcas y estrategias como revisar medidas, consultar guías, comprar varios talles o probar presencialmente.
+* [Sizebay — Why clothing sizes are inconsistent across brands](https://sizebay.com/en/blog/why-clothing-sizes-are-inconsistent-across-brands/)
+
+* [SizeFlags: Reducing Size and Fit Related Returns in Fashion E-Commerce](https://dl.acm.org/doi/10.1145/3544548.3581405)
+
+* [Incorporating Customer Reviews in Size and Fit Recommendation Systems for Fashion E-Commerce](https://dl.acm.org/doi/10.1145/3516564.3516591)
+
+* [Reddit — Why is women’s sizing so inconsistent across brands?](https://www.reddit.com/r/womensfashion/)
+
+* [Reddit — r/malefashionadvice: Sizing Issues](https://www.reddit.com/r/malefashionadvice/)
 
 ### Dudas y contradicciones
 
