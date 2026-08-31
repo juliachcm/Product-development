@@ -76,3 +76,82 @@ reclamo se haya resuelto correctamente.
   (Juana) señala explícitamente que "es mayor el costo de devolverlo
   que quedártelo, porque te quita tiempo, tenés que tener paciencia,
   ganas y confianza en una marca que no cumplió tus expectativas".
+
+
+## 5. Ideas de solución
+
+### Flujo digital de reclamos con seguimiento transparente
+
+- **Propuesta:** Flujo digital de reclamos con seguimiento tipo
+  "delivery tracking" — el cliente reporta el problema con fotos, y
+  puede ver en tiempo real el estado del reclamo (recibido, en
+  revisión, resuelto), sin tener que escribir varias veces o
+  trasladarse a un local.
+
+- **Valor para el usuario:** transparencia y rapidez percibida en el
+  proceso de reclamo/devolución, que es justo lo que hacía que los
+  clientes entrevistados abandonaran la marca aunque el reclamo se
+  resolviera correctamente.
+
+- **Tecnología central:** formulario de reporte + sistema de estados
+  y notificaciones (tipo helpdesk simple).
+
+- **Datos necesarios:** fotos del cliente sobre el problema,
+  historial y estado del reclamo.
+
+- **Riesgo principal:** no ataca el problema de origen (por qué el
+  producto no coincidió con lo esperado) — solo mejora la experiencia
+  de resolverlo. Podría reducir el abandono sin reducir la tasa de
+  reclamos en sí.
+
+- **Prototipo inicial:** formulario conectado a una hoja de cálculo
+  con estados, o herramienta gratuita tipo Trello compartido con el
+  cliente.
+
+- **Dependencias:** que la marca adopte y mantenga actualizado el
+  flujo de estados por cada reclamo.
+
+- **Estado:** idea no validada.
+
+### Alternativas descartadas (por ahora)
+
+- **Combinada (ficha técnica + reclamos conectados):** mayor valor
+  potencial pero mayor riesgo de adopción y menor evidencia directa
+  en la Necesidad 1.
+- **Checklist de consistencia pre-publicación:** ataca el origen del
+  problema, pero depende de validación manual y no tiene evidencia
+  directa de entrevistas a marcas todavía.
+
+
+## 6. Hipótesis principales
+
+### Hipótesis de problema
+
+Creemos que el equipo de la marca enfrenta reclamos donde el cliente
+abandona la relación aunque el problema se resuelva, por la fricción
+del proceso.
+Lo sabremos si, al entrevistar a alguien de una marca, confirma que
+efectivamente pierde clientes pese a resolver bien los reclamos.
+
+### Hipótesis de valor
+
+Creemos que un flujo de reclamos transparente y con seguimiento en
+tiempo real reduce el abandono de clientes tras un reclamo.
+Lo sabremos si, en una prueba con clientes reales, quienes usan el
+flujo reportan mayor disposición a volver a comprar que quienes pasan
+por el proceso actual.
+
+### Hipótesis de comportamiento
+
+Creemos que los clientes van a usar el flujo de seguimiento (reportar
+con fotos, revisar el estado) en lugar de contactar por otros medios
+(WhatsApp, mail, redes).
+Lo sabremos si, en la prueba, la mayoría de los reclamos se inician y
+siguen a través del flujo sin necesitar canales alternativos.
+
+### Hipótesis de factibilidad
+
+Creemos que podemos construir un flujo de estados simple y
+notificaciones sin depender de integraciones complejas con la marca.
+Lo sabremos si logramos armar un prototipo funcional (formulario +
+estados) en herramientas gratuitas dentro de un plazo corto.
