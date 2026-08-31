@@ -155,3 +155,111 @@ Creemos que podemos construir un flujo de estados simple y
 notificaciones sin depender de integraciones complejas con la marca.
 Lo sabremos si logramos armar un prototipo funcional (formulario +
 estados) en herramientas gratuitas dentro de un plazo corto.
+
+
+## 7. Lo más importante por aprender
+
+### Pregunta priorizada
+
+¿El abandono de clientes después de un reclamo resuelto es un problema
+que las marcas reconocen y les importa lo suficiente como para invertir
+en resolverlo?
+
+## Pre-mortem — Riesgos priorizados
+
+1. **Problema inexistente o poco relevante para la marca**
+   - Señal temprana: la marca minimiza el tema en la entrevista.
+   - Experimento: entrevistar 3-5 responsables de marcas sobre
+     abandono de clientes post-reclamo.
+
+2. **Datos insuficientes o de mala calidad**
+   - Señal temprana: la marca no tiene registro sistematizado de
+     reclamos.
+   - Experimento: pedir datos informales del último mes a una marca.
+
+3. **Dependencias institucionales**
+   - Señal temprana: la marca dice que la resolución "no depende de
+     ellos" (proveedores externos, showrooms, logística tercerizada).
+   - Experimento: preguntar en la entrevista quién controla cada
+     etapa del proceso de devolución.
+
+
+## 8. Experimento mínimo
+
+- **Hipótesis que prueba:** Hipótesis de problema — el abandono de
+  clientes tras un reclamo resuelto es un problema real y relevante
+  para las marcas.
+
+- **Objetivo:** Confirmar si responsables de marcas/emprendimientos
+  de indumentaria reconocen la pérdida de clientes post-reclamo como
+  un problema, y si les importa lo suficiente como para actuar.
+
+- **Tipo de experimento:** Entrevistas semiestructuradas.
+
+- **Herramienta:** Guía de preguntas + llamada o encuentro presencial;
+  registro en el mismo formato usado para las entrevistas a
+  compradores.
+
+- **Participantes:** 3 a 5 responsables de marcas o emprendimientos
+  de indumentaria que vendan online (dueños/as, encargados de
+  atención al cliente o de operaciones).
+
+- **Duración:** 1 semana para conseguir y realizar las entrevistas.
+
+- **Tarea:** Entrevistar sobre su proceso actual de reclamos/
+  devoluciones, cómo miden (si es que miden) la pérdida de clientes
+  después de un reclamo, y qué tan prioritario es el tema para ellos
+  frente a otras urgencias del negocio.
+
+- **Datos necesarios:** Ninguno técnico — solo acceso a personas
+  dispuestas a ser entrevistadas.
+
+- **Métrica:** Cantidad de marcas entrevistadas que reconocen
+  espontáneamente el abandono post-reclamo como un problema real,
+  sin que se lo sugiramos nosotros.
+
+- **Criterio de éxito:** Al menos 3 de 5 marcas mencionan el abandono
+  de clientes o la pérdida de confianza post-reclamo como una
+  preocupación real, sin que se lo insinuemos en la pregunta.
+
+- **Criterio de fracaso:** Menos de 2 de 5 marcas lo mencionan
+  espontáneamente, o lo consideran irrelevante frente a otras
+  prioridades (precio, marketing, etc.).
+
+- **Aprendizaje esperado:** Si el problema es real para las marcas,
+  seguimos con el diseño del flujo de reclamos. Si no lo es, o si
+  aparece un problema distinto (por ejemplo, costos logísticos antes
+  que retención), replanteamos la Caja 1 y 5 con esa nueva evidencia.
+
+- **Limitaciones:** Muestra pequeña (3-5), no representativa de todo
+  el mercado; depende de conseguir acceso a marcas dispuestas a
+  hablar del tema.
+
+
+La solución digital que decidimos explorar es:
+Un flujo digital de reclamos con seguimiento transparente (tipo
+"delivery tracking") para reducir el abandono de clientes tras un
+reclamo resuelto.
+
+La evidencia más fuerte que la respalda es:
+Las dos entrevistas a compradoras, donde ambas señalan que el costo
+de gestionar un reclamo/devolución (tiempo, traslado, incertidumbre)
+pesa tanto o más que el error de talle/calidad en sí.
+
+El supuesto más riesgoso es:
+Que las marcas reconozcan y les importe el abandono de clientes
+post-reclamo lo suficiente como para invertir en resolverlo — todavía
+no entrevistamos a nadie del lado de una marca.
+
+Lo más importante que necesitamos aprender es:
+¿El abandono de clientes después de un reclamo resuelto es un
+problema que las marcas reconocen y les importa lo suficiente como
+para invertir en resolverlo?
+
+El experimento que realizaremos es:
+Entrevistas semiestructuradas a 3-5 responsables de marcas/
+emprendimientos de indumentaria online.
+
+Abandonaremos o cambiaremos la propuesta si:
+Menos de 2 de 5 marcas entrevistadas mencionan espontáneamente el
+abandono de clientes como una preocupación real.
