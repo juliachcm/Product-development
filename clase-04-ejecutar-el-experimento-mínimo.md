@@ -56,6 +56,7 @@
 - **Resultados obtenidos:** Ver detalle completo en
   `entrevistas-marcas.md`. Resumen de confirmación espontánea de la
   hipótesis:
+
   | Entrevista | Confirma espontáneamente |
   |---|---|
   | 1 | Sí |
@@ -63,48 +64,103 @@
   | 3 | No |
   | 4 | Sí |
   | 5 | Sí |
-- **Anomalías observadas:** Ninguna todavía — es esperable revisar
-  esto cuando haya entrevistas reales (Paso 7 del skill).
+
+- **Anomalías observadas:** Ninguna — al ser datos simulados
+  generados para ensayar el flujo, no surgió un resultado
+  verdaderamente inesperado que amerite investigar (instrumento,
+  reglas, resultado esperado o hipótesis). Este punto se retoma con
+  entrevistas reales.
 
 ## 5. Evidencia
 
-*(Pendiente de completar en el Paso 6 — separar evidencia a favor, en
-contra, interpretación y supuestos con las 5 entrevistas.)*
-
 - **A favor:**
+  - Entrevista 1: menciona el abandono espontáneamente, en la
+    apertura, antes de llegar a la pregunta 6.
+  - Entrevista 2: lo reconoce, pero recién al preguntarle
+    directamente (pregunta 6), no antes.
+  - Entrevista 4: lo menciona espontáneamente en la pregunta 1, y
+    agrega que ya probaron una solución propia (cupón post-reclamo).
+  - Entrevista 5: lo confirma espontáneamente en la pregunta 6, con
+    carga emocional fuerte.
+
 - **En contra:**
+  - Entrevista 3: no confirma ni espontáneamente ni al preguntar
+    directo — no porque el problema no exista, sino porque el
+    emprendedor no tiene visibilidad/registro para saber si sus
+    clientes vuelven o no.
+
 - **Interpretación del equipo:**
-- **Limitaciones:** Datos simulados, no representan comportamiento
-  real de marcas. Muestra pequeña. No hay entrevistas reales todavía.
+  - El problema parece más visible y priorizado en marcas con algún
+    tipo de sistematización de datos (2, 4, 5) que en emprendimientos
+    muy chicos y sin registro (3).
+  - La confirmación "espontánea en la apertura" (1 y 4) podría
+    indicar mayor intensidad del problema que la confirmación "solo
+    al preguntar directo" (2) — esto es una lectura del equipo, no un
+    hecho medido.
+  - El caso 4 sugiere que, cuando el problema se prioriza, puede
+    derivar en acción concreta (cupón), lo cual reforzaría que no es
+    solo una preocupación abstracta.
+
+- **Limitaciones:**
+  - Las 5 entrevistas son simuladas — no reflejan sesgos, tono ni
+    honestidad reales de un entrevistado.
+  - Muestra de 5, no representativa aun si fuera real.
+  - No se puede aplicar el criterio de éxito (3 de 5) como decisión de
+    negocio con estos datos.
 
 ## 6. Aprendizajes
 
-*(Pendiente — se completa en Paso 8, después de sintetizar evidencia.)*
-
 - **Qué aprendimos:**
+  - El instrumento (guía de 12 preguntas) permite obtener, en el
+    ensayo, respuestas claramente clasificables como confirman /
+    confirman parcial / no confirman la hipótesis, sin necesidad de
+    ajustes.
+  - Apareció una distinción relevante no prevista explícitamente en
+    la Caja 8: "confirma espontáneamente" vs. "confirma solo al
+    preguntar directo" vs. "no puede confirmar por falta de datos
+    propios" — matiz útil para la próxima ejecución real.
+
 - **Qué continúa siendo un supuesto:**
-- **Cambios realizados o propuestos:**
+  - Si esta distribución (4 de 5 confirman en algún grado) se
+    sostendría con marcas reales, con incentivos y honestidad
+    distintos a los de una simulación.
+  - Si el emprendimiento sin visibilidad (caso 3) representa una
+    porción grande del mercado objetivo, lo cual podría significar
+    que el problema real ahí es "no miden", no "no les importa".
+  - Si la variable que más pesa es el tamaño/madurez de la marca, más
+    que el interés genuino en el problema.
+
+- **Cambios realizados o propuestos:** Ninguno al instrumento ni al
+  criterio. Se propone, para la ejecución real, registrar también si
+  la confirmación fue espontánea en la apertura o solo al preguntar
+  directo, como dato adicional (sin modificar la métrica ya definida).
 
 ## 7. Estado de la evidencia y próxima iteración
 
-- **Respaldada, no respaldada o inconclusa:** **Inconclusa** —
-  la evidencia actual es simulada, no puede usarse para decidir sobre
-  la hipótesis real de negocio.
-- **Comparación con el criterio:** No aplica todavía sobre datos
-  reales.
-- **Decisión de iteración:** Conseguir y ejecutar entrevistas reales
-  con 3-5 responsables de marcas antes de tomar cualquier decisión.
+- **Respaldada, no respaldada o inconclusa:** **Inconclusa.** Con
+  datos reales, 4 de 5 superaría el criterio de éxito (≥3 de 5), pero
+  al ser una simulación no puede usarse para decidir sobre la
+  hipótesis de negocio.
+- **Comparación con el criterio:** No aplica sobre datos reales
+  todavía; el ensayo con datos simulados no arrojó ninguna razón para
+  ajustar el criterio ni el instrumento.
+- **Decisión de iteración:** Conseguir y ejecutar 3-5 entrevistas
+  reales con responsables de marcas, usando el mismo instrumento sin
+  modificaciones.
 - **Justificación:** El skill y la guía de clase exigen no presentar
   datos simulados como si fueran reales, ni decidir el estado de la
   hipótesis con ellos.
 - **Próxima incertidumbre por reducir:** Reemplazar entrevistas
-  simuladas por reales.
+  simuladas por reales y volver a clasificar el estado de la
+  evidencia.
 
 ## 8. Nueva posición en la curva de la verdad
 
 - **Evidencia incorporada:** Ninguna evidencia real todavía; solo un
-  ensayo del instrumento y del flujo de análisis.
-- **Inversión que se justifica ahora:** Seguir con entrevistas
-  (bajo costo), no avanzar a prototipos.
+  ensayo del instrumento y del flujo de análisis, que resultó
+  utilizable sin cambios.
+- **Inversión que se justifica ahora:** Seguir con entrevistas (bajo
+  costo, mismo instrumento), no avanzar a prototipos.
 - **Qué todavía no se justifica construir:** Cualquier prototipo de
-  flujo de reclamos o herramienta digital.
+  flujo de reclamos o herramienta digital (eso pertenece a la
+  Hipótesis de Valor/Comportamiento, no a esta etapa).
