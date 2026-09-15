@@ -97,6 +97,7 @@ La combinación resuelve la limitación de cada alternativa por separado: el pro
 > Completar un bloque por cada participante, a medida que se ejecuta. No completar huecos con inferencias: si un dato no se registró, dejarlo en blanco y anotarlo como dato faltante.
 
 ## Piloto (no cuenta para el criterio de éxito)
+- https://claude.ai/public/artifacts/35c2bfe8-9b70-442c-99bb-4dfc9e76ee12
 
 - **Dato faltante:** no quedó registrado en el chat el detalle del piloto (quién lo hizo, qué se observó). El equipo confirmó verbalmente que "probaron el recorrido y funciona", pero no se documentaron observaciones puntuales. Pendiente completar si el equipo las tiene por fuera de este registro.
 
