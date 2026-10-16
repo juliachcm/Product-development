@@ -44,4 +44,5 @@
 - Situación: quiere reclamar o devolver, pero el proceso le exige tiempo, paciencia y escribir varias veces por WhatsApp o mail, sin saber en qué estado está su caso.
 - Valor que queremos entregar: reducir la incertidumbre y la fricción del reclamo para que el cliente no abandone la marca aunque el problema se resuelva.
 - Una sola cosa que el MVP debe permitir hacer: reportar un reclamo y ver su estado actualizado hasta la resolución.
-- Qué vamos a medir cuando
+- Qué vamos a medir cuando el MVP esté en uso: cuántas personas inician un reclamo, cuántas lo completan (llegan a ver el estado “Resuelto”) y qué resultado útil observamos: si declaran mayor disposición a recomprar y si aceptan ser recontactadas. Las fechas de cada cambio de estado se registran a mano.
+- Duda pendiente: si el seguimiento distribuido en varios días reales es lo que sube la disposición a recomprar, y si las marcas reales reconocen el problema (las entrevistas de Clase 4 fueron simuladas).
