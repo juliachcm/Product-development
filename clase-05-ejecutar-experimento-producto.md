@@ -87,14 +87,11 @@ La combinación resuelve la limitación de cada alternativa por separado: el pro
 - **Decisión del equipo:** dar la prueba por cerrada sin repetir en esta sesión. La corrección (estados actualizados en días distintos) queda diseñada y lista para retomar — ver `registro-experimento.md`, sección "Iteración 1".
 - **Detalle completo de la ejecución, datos y análisis:** `registro-experimento.md`.
 
-
-
-
-
+---
 
 # Registro del experimento — Clase 5 (Hipótesis de Valor)
 
-> Completar un bloque por cada participante, a medida que se ejecuta. No completar huecos con inferencias: si un dato no se registró, dejarlo en blanco y anotarlo como dato faltante.
+> Los participantes se identifican como U1, U2 y U3. No se conservan nombres ni datos de contacto. Si un dato no se registró, se deja en blanco y se anota como dato faltante.
 
 ## Piloto (no cuenta para el criterio de éxito)
 - https://claude.ai/public/artifacts/35c2bfe8-9b70-442c-99bb-4dfc9e76ee12
@@ -105,10 +102,10 @@ La combinación resuelve la limitación de cada alternativa por separado: el pro
 
 ## Ejecución real
 
-### Caso 1 — RC-G429
+### Caso 1 — RC-G429 (U1)
 
 - **Código del caso:** RC-G429
-- **Participante:** Michelle Escobar (michelle.escobar@gmail.com)
+- **Participante:** U1
 - **Fecha de reporte:** 14-sept, 09:11 p.m.
 - **Descripción del reclamo (textual):** "compre un traje de baño y después de usarlo una vez, se soltó un hilo y se rompió. Me pareció muy mala la calidad."
 - **¿Completó el formulario inicial?** Sí
@@ -120,10 +117,10 @@ La combinación resuelve la limitación de cada alternativa por separado: el pro
 - **Cumple las 3 condiciones del criterio de éxito juntas:** No (disposición no aumentó, no aceptó recontacto)
 - **Dato faltante:** fechas de cada cambio de estado intermedio, tiempo total del proceso, comportamientos observados durante el uso.
 
-### Caso 2 — RC-WSBB
+### Caso 2 — RC-WSBB (U2)
 
 - **Código del caso:** RC-WSBB
-- **Participante:** Julia Chiaradia (juliach06@icloud.com)
+- **Participante:** U2
 - **Fecha de reporte:** 14-sept, 09:03 p.m.
 - **Descripción del reclamo (textual):** "El talle que pedí era unitalla y no me entró, no coincidía con la tabla de medidas. Además la calidad era muy mala, a diferencia de las que se ve en las fotos."
 - **¿Completó el formulario inicial?** Sí
@@ -135,10 +132,10 @@ La combinación resuelve la limitación de cada alternativa por separado: el pro
 - **Cumple las 3 condiciones del criterio de éxito juntas:** Sí
 - **Dato faltante:** fechas de cada cambio de estado intermedio, tiempo total del proceso.
 
-### Caso 3 — RC-F3S9
+### Caso 3 — RC-F3S9 (U3)
 
 - **Código del caso:** RC-F3S9
-- **Participante:** Lucía Kohan (luciakohan@icloud.com)
+- **Participante:** U3
 - **Fecha de reporte:** 14-sept, 09:03 p.m.
 - **Descripción del reclamo (textual):** "Compre un buzo y no era nada parecido al de la foto entonces me decepcionó y lo devolví."
 - **¿Completó el formulario inicial?** Sí
@@ -167,7 +164,7 @@ La combinación resuelve la limitación de cada alternativa por separado: el pro
 
 - **Anomalía de contexto (confirmada por el equipo):** los 3 casos se actualizaron por los 3 estados (Recibido → En revisión → Resuelto) casi en la misma sesión, no distribuidos en días distintos como preveía el contrato experimental. El mecanismo central de la Hipótesis de Valor — que el seguimiento *a lo largo del tiempo* genera confianza — no llegó a ponerse a prueba tal como estaba diseñado. Lo que sí se probó fue una versión comprimida, más parecida a una demo instantánea (opción "prototipo navegable" del Paso 3) que al experimento combinado acordado.
 
-- RC-G429 completó todo el flujo y calificó el proceso como "mejor" que su experiencia previa, pero eso **no** se tradujo en mayor disposición a recomprar ni en aceptar recontacto — es el único caso donde el proceso se percibió positivo pero no movió la intención de recompra. No se infiere la causa; no fue preguntado en la encuesta.
+- RC-G429 (U1) completó todo el flujo y calificó el proceso como "mejor" que su experiencia previa, pero eso **no** se tradujo en mayor disposición a recomprar ni en aceptar recontacto — es el único caso donde el proceso se percibió positivo pero no movió la intención de recompra. No se infiere la causa; no fue preguntado en la encuesta.
 - Los 3 casos muestran motivos de reclamo distintos entre sí (calidad de tela, talle no coincidente, producto distinto a la foto) — no permite aislar si el efecto del seguimiento varía según el tipo de motivo.
 
 ## Datos faltantes o no registrados
@@ -192,4 +189,3 @@ La combinación resuelve la limitación de cada alternativa por separado: el pro
 - **Próximo experimento:** misma herramienta (`reclamos-seguimiento.html`), con 2-3 casos nuevos o reabriendo el seguimiento si corresponde, actualizando el estado en al menos 2 días distintos antes de llegar a "Resuelto".
 - **Qué evidencia diferente esperamos obtener:** si la disposición a recomprar sube más cuando el seguimiento realmente toma varios días, en comparación con esta corrida donde todo se resolvió de forma casi inmediata.
 - **Nuevo contrato experimental:** igual al original (Paso 4), agregando una condición de ejecución explícita: mínimo 2 actualizaciones de estado en días calendario distintos antes del cierre. El equipo decidió **no ejecutar esta corrección ahora** — queda diseñada y lista para retomar cuando el equipo lo decida (posiblemente en la Clase 6).
-
