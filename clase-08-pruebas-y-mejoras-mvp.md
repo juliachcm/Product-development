@@ -1,64 +1,89 @@
-# Clase 8 · Pruebas y mejoras del MVP
+# Pruebas y mejoras del MVP — Seguimiento de reclamos
 
-> Estado: borrador. Los resultados de pruebas con personas están pendientes y se completan solo con observaciones reales.
+## 1. Contexto
 
-- **Equipo y fecha:** [COMPLETAR]
-- **Usuario y problema:** persona que compró indumentaria online y tuvo un problema de talle o calidad; quiere reclamar pero debe repetir mensajes por WhatsApp o mail sin saber en qué estado está su caso.
-- **MVP:** app "Seguimiento de Reclamos" (Google AI Studio, marca de demostración "Valia Studio"). Enlace: [COMPLETAR]. Versión inicial = Clase 7.
-- **Tarea:** "Compraste una prenda online y no era como esperabas (talle o calidad). Usá esta versión para presentar tu reclamo y después averiguar en qué estado está."
-- **Inicio:** la persona abre el enlace.
-- **Completó:** reportó el reclamo, obtuvo su código RC-XXXX y pudo ver el estado de su caso.
-- **Cierre:** éxito, abandono o límite de 10 minutos.
-- **Qué cuenta como ayuda:** cualquier indicación del equipo sobre dónde tocar, qué escribir o cómo seguir. Con ayuda, el intento cuenta como completado pero no autónomo.
-- **Funcional / manual / simulado:**
-  - Funciona: formulario, código, seguimiento con fecha y hora, encuesta. El cambio de estado falló el 19/10 [CONFIRMAR si ya se arregló].
-  - Manual: cambios de estado y avisos por WhatsApp/mail.
-  - Simulado: marca "Valia Studio" y datos de ejemplo.
+- **Equipo y fecha:** 4 integrantes · 26/10/2026.
+- **Usuario y problema:** persona que compró indumentaria online y tuvo un problema de entrega, talle, calidad, cambio o devolución. Hoy debe repetir mensajes por WhatsApp o mail sin saber en qué estado está su caso.
+- **Acceso al MVP:** https://ai.studio/apps/4fa275ff-ef37-4cd1-a99d-5dd51cab1a69 (app "Seguimiento de Reclamos", marca de demostración "Valia Studio"). Versión probada: **nueva** (reporte en pasos cortos y prioridad calculada). Detalle en `mvp.md`.
 
-## Plan de medición
+## 2. Tarea, finalización y ayuda
 
-| Métrica | Fórmula/unidad | Fuente y momento | Criterio exploratorio | Decisión que informa |
-| --- | --- | --- | --- | --- |
-| Éxito | Completan / intentan (primer intento por persona y versión) | Observación y registro manual, durante la prueba | 4 de 5 | Si no se alcanza: revisar dónde se traban y priorizar esa dificultad |
-| Autonomía | Completan sin ayuda / intentan | Observación y registro de ayudas, durante la prueba | 4 de 5 | Si no se alcanza: mejorar instrucciones, textos o interacciones |
-| Valor (proxy: reducción de incertidumbre) | Pueden decir correctamente en qué estado está su caso sin preguntar / completan | Pregunta de cierre, justo después de la tarea | 4 de 5 | Si no se alcanza: el seguimiento no comunica bien el estado |
-| Valor real (recompra / no abandono) | Disposición a recomprar y recontacto aceptado | No medido en esta clase | n/a | Requiere seguimiento posterior: [definir con quién, dónde, cuándo y cómo] |
+- **Tarea dada (ronda 1):** "Completá el reporte como si fuera el problema más común que tenés cuando comprás online."
+- **Tarea propuesta para la ronda 2** (describe el objetivo, no dónde tocar): "Compraste una prenda y llegó con un problema. Lo necesitás resuelto esta semana. Usá esta página para reportarlo y enterarte de cómo sigue."
+- **Resultado observable:** la persona llega a ver su código RC-XXXX y el estado "Recibido". Para el valor, responde la encuesta de cierre cuando el caso llega a "Resuelto".
+- **Cuenta como ayuda:** que el equipo explique, indique dónde tocar o responda una pregunta sobre qué escribir. Si la ayuda ocurre, no cuenta como finalización autónoma.
+- **Fin del intento:** éxito (ve su código), abandono o 10 minutos sin avanzar.
 
-Notas:
-- La métrica de valor es un proxy: no demuestra que el cliente deje de abandonar la marca.
-- Con muestras chicas se informa "4 de 5", sin generalizar. Si nadie intentó: "no medido".
-- Compañeros fuera del segmento sirven para detectar dificultades de uso, no para demostrar valor ni demanda.
+## 3. Métricas
 
-## Registro de pruebas
-
-| ID | Perfil/segmento | Versión | Intentó | Completó | Sin ayuda | Valor/unidad o no medido | Dificultad y ayuda |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| U1 | Por completar | Inicial | Por completar | Por completar | Por completar | Por completar | Por completar |
-| U2 | Por completar | Inicial | Por completar | Por completar | Por completar | Por completar | Por completar |
-| U3 | Por completar | Inicial | Por completar | Por completar | Por completar | Por completar | Por completar |
-
-Las pruebas entre integrantes del equipo (Clase 7) y las pruebas técnicas con IA no cuentan como participantes.
-
-## Aprendizaje e iteración
-
-- **Hechos observados (Clase 7, prueba entre pares):**
-  - 16/10: se perdió un caso (se guardaba solo en el dispositivo) y el asistente dio error 503 una vez.
-  - 19/10: "Pasar a En revisión" no cambió el estado y apareció un error nuevo en consola (caso RC-B1BM).
-- **Posible causa:** sin determinar. [Pegar mensaje exacto de consola]
-- **Prioridad candidata:** arreglar el cambio de estado, porque sin eso nadie llega a "Resuelto". Es un problema de funcionamiento; la dificultad priorizada con evidencia de personas queda pendiente hasta la primera ronda.
-- **Pedido a la IA y decisión del equipo:** [COMPLETAR]
-- **Cambio realizado y verificación técnica:** [COMPLETAR]
-
-## Comparación
-
-| Métrica | Antes (n y resultado) | Después (n y resultado) | Interpretación y límites |
+| Métrica | Cómo se mide | Criterio exploratorio | Qué decisión informa |
 | --- | --- | --- | --- |
-| Éxito | No medido | No medido | Sin segunda ronda todavía |
-| Autonomía | No medido | No medido | Sin segunda ronda todavía |
-| Valor (proxy) | No medido | No medido | Sin segunda ronda todavía |
+| **Éxito de la tarea** | Participantes que ven su código / participantes que intentan (primer intento por persona y versión). | Al menos 4 de 5. | Si es menor, ver en qué paso abandonan y corregir ese paso. |
+| **Autonomía** | Participantes que completan sin ayuda / participantes que intentan. Se anota cada duda o pregunta. | Al menos 4 de 5 sin ayuda y sin preguntas. | Qué textos o pasos hay que simplificar. |
+| **Valor** | Tras llegar a "Resuelto", declaran mayor disposición a recomprar que en su experiencia previa y aceptan recontacto (encuesta de cierre). Se les avisa de la encuesta. | Al menos 3 de 5, como en la Clase 5. | Si el seguimiento empieza a producir confianza o solo es una mejora de interfaz. |
 
-## Próximo paso
+Con muestras pequeñas se informa "X de N", sin generalizar. Si nadie llega a la encuesta, el valor es **"no medido"**.
 
-- **Incertidumbre pendiente:** si el seguimiento distribuido en varios días (no solo la transparencia) sube la disposición a recomprar, y si las marcas reales reconocen el problema (las entrevistas de la Clase 4 fueron simuladas).
-- **Acción más barata:** 1) arreglar el cambio de estado, 2) correr la tarea sin indicaciones con 3 a 5 personas, 3) combinar con la repetición de la Clase 5 (estados en al menos 2 días calendario distintos, registrando la fecha de cada cambio). Responsable y fecha: [COMPLETAR]
-- **Qué decidir según el resultado:** si éxito o autonomía quedan bajo el criterio, mejorar la dificultad más bloqueante y volver a probar con personas nuevas; si el recorrido funciona, pasar a medir valor real con seguimiento posterior.
+## 4. Registro de participantes (versión nueva)
+
+| ID | ¿Segmento? | Versión | ¿Intentó? | ¿Completó? | ¿Sin ayuda? | Valor | Dificultad y ayuda recibida |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| U1 | Sí: persona con malas experiencias de postventa online | Nueva | Sí | Sí (caso RC-23BC, que figura "Resuelto") | Sí, con una duda | No medido: no completó la encuesta, porque no se le avisó | Mucho texto; doble mensaje; "¿Cuándo te lo prometieron?" le resultó raro; tardó en cargar |
+
+**Resultado ronda 1: éxito 1 de 1, autonomía 1 de 1 (con una duda), valor no medido.** Con una persona no se puede generalizar.
+
+**Observaciones de U1**
+- No le gustó el diseño: tiene mucho texto y le resultó confuso al principio.
+- Se detuvo en "¿Cuándo te lo prometieron?", la entendió por contexto y siguió sola. Propone "¿Para cuándo era tu pedido?" y un lenguaje más simple y directo.
+- Le confundió el doble mensaje: el automático de arriba y la nota del equipo.
+- Pidió recibir avisos del estado sin entrar a la web, y una respuesta del equipo.
+- En su caso (talle que no coincide con la tabla y material distinto a lo prometido) cree que hace falta un ida y vuelta de preguntas y opciones, no solo un formulario.
+- No completó la encuesta por falta de ganas y porque no se le avisó.
+- La captura del caso muestra "Pedido ##1160" con dos numerales: puede ser un error de la app o de lo que se escribió.
+
+## 5. Dificultad priorizada
+
+| Hecho (observado) | Posible causa (a comprobar) | Mejora |
+| --- | --- | --- |
+| Mucho texto, doble mensaje, una pregunta confusa y lenguaje poco directo; duda en un paso. | Textos largos y formulaciones poco claras; mensajes de estado y nota del equipo juntos. | Simplificar textos, reformular la pregunta y separar claramente el estado de la nota del equipo. |
+
+**Elegida: simplificar los textos y la pregunta.** Es lo que más apareció (varios comentarios), frena la autonomía y es barata de corregir y de volver a probar. Las otras dificultades quedan registradas abajo y no se mezclan en esta ronda.
+
+**Pedido a la IA (para pegar en AI Studio)**
+
+> Nuestro usuario es una persona que compró indumentaria online y quiere reportar un problema, cambio o devolución. Probamos la versión nueva con 1 persona del segmento. Observamos: tiene mucho texto, el mensaje automático y la nota del equipo se confunden, y "¿Cuándo te lo prometieron?" le resultó raro. Elegimos trabajar sobre esto porque frena que el reporte se complete sin dudas. Ayudanos a analizar posibles causas y proponé hasta tres cambios pequeños. Antes de modificar, discutamos las alternativas.
+
+Después de elegir:
+
+> Implementá [cambio elegido]. Conservá el reporte en pasos, el código RC-XXXX, la prioridad calculada y todo lo que ya funciona. Criterio de aceptación: una persona nueva completa el reporte sin hacer ninguna pregunta. Probá el recorrido principal y un caso de error. Indicá qué verificaste y qué sigue pendiente de prueba con personas.
+
+## 6. Cambio implementado y verificación técnica
+
+**[PENDIENTE]** Todavía no se implementó. Registrar: qué se cambió, versión nueva y qué se verificó (recorrido principal y un caso de error).
+
+## 7. Comparación antes y después
+
+| Métrica | Antes (versión nueva, 1 persona) | Después | Qué aprendimos y qué limita la comparación |
+| --- | --- | --- | --- |
+| Éxito | 1 de 1 | **[PENDIENTE]** | La muestra es de una persona; conviene personas nuevas, porque quien ya conoce el recorrido sesga el resultado. |
+| Autonomía | 1 de 1, con una duda | **[PENDIENTE]** | Igual. |
+| Valor | No medido | **[PENDIENTE]** | Avisar de la encuesta y esperar a que el caso llegue a "Resuelto". |
+
+Esta comparación será exploratoria: no demuestra por sí sola que el cambio causó el resultado.
+
+## 8. Próxima incertidumbre
+
+- **Incertidumbre:** si, con textos más simples, una persona nueva completa el reporte sin preguntas, y si el seguimiento con avisos mueve su disposición a recomprar.
+- **Acción más barata:** repetir la prueba con 2 a 4 personas nuevas del segmento, con la tarea propuesta, avisándoles de la encuesta de cierre.
+- **Responsable y momento:** las 4 integrantes, junto con las entrevistas de precio de la semana del 26/10 al 01/11/2026 **[CONFIRMAR]**.
+
+## Mejoras a evaluar en próximas iteraciones con IA
+
+Quedan registradas para iterar después, de a una por vez y con evidencia:
+
+1. **Avisos de estado fuera de la web** (mail o WhatsApp): primero manuales con `mailto:` y `wa.me`; automáticos solo más adelante.
+2. **Ida y vuelta con opciones** para cambios, devoluciones y reembolsos, porque algunos casos no se resuelven sin preguntarle a la persona qué prefiere.
+3. **Velocidad de carga:** U1 notó que tardó.
+4. **Numeral duplicado en "Pedido ##1160":** revisar si es un error de la app.
+5. **Pesos de la prioridad:** "cambio/devolución + esta semana" dio 75 puntos y quedó en rojo; revisar con más casos si el rojo pierde utilidad.
+6. **Avisar de la encuesta de cierre** al terminar el seguimiento, desde el proceso de prueba y desde la app.
